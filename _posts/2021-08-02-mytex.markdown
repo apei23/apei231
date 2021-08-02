@@ -1,0 +1,149 @@
+---
+layout: post
+title:  "tex test!"
+date:   2021-08-02 23:39:30 +0800
+categories: jekyll update
+author: 刘志强
+---
+
+<span>UTF8</span><span>gbsn</span>
+
+大家好，今天雨过天晴，正是学习的好时机。\
+我们来讲一下裂项相消法。\
+在我们的读书生涯中，裂项相消法一直陪伴着我们。毫不夸张的说，只要你学数学，总会看到它的身影。\
+首先，我们来介绍两个公式：\
+1、母积子和公式：
+
+$$\displaystyle \frac{b+a}{a\times b } =\frac{b}{a\times b }+\frac{a}{a\times b }=\frac{1}{a}+\frac{1}{b }$$
+
+-   分母是两个数的乘积
+
+-   分子是这两个数的和
+
+-   则可以裂项为两个分数的和
+
+2、母积子差公式：
+
+$$\displaystyle \frac{b-a}{a\times b } =\frac{b}{a\times b }-\frac{a}{a\times b }=\frac{1}{a}-\frac{1}{b }$$
+
+-   分母是两个数的乘积
+
+-   分子是这两个数的差
+
+-   则可以裂项为两个分数的差
+
+今天我们要讲的裂项相消法就和这两个公式有关。
+下面介绍一下我们初中数学经常用到的两个基本公式：
+
+$$\displaystyle \frac{1}{n\times \left ( n+1 \right ) } =\frac{1}{n} -\frac{1}{n+1}$$
+$$\displaystyle \frac{1}{n\times \left ( n+k \right ) } =\frac{1}{k}\left (  \frac{1}{n} -\frac{1}{n+k}  \right )$$\
+那这两个基本公式和我们上面看到的母积子和、母积子差公式有什么关系呢？\
+同学们可以暂停思考一下。\
+这里又用到了我们数学计算中非常重要的一个方法：“巧用$1$”，不管在以后的高中，大学的学习中，都会经常使用到这个计算方法。\
+左边分子$1$可以表示成$\displaystyle 1=n+1-n$，那同学们是不是马上就看到了母积子差公式。\
+根据这个思路，我们再来看
+$\displaystyle \frac{1}{n\times\left ( n+k \right )  }$
+,分子$1$怎么表示，才能和分母产生联系？
+$\displaystyle n+k-n=k$
+那是不是只要在前面乘上$\displaystyle \frac{1}{k} $就搞定了？
+是的，我们只需要将分子写成$\displaystyle \frac{1}{k} \left ( n+k-n \right ) $,这样我们就可以利用母积子差公式推导出常用基本公式。
+记住这两个基本公式，对我们初中数学计算非常重要。
+接下来，有了公式当然需要实战一下，看对公式掌握的怎么样？\
+例1、$\displaystyle \frac{1}{1\times2 } +  \frac{1}{2\times3 } +  \frac{1}{3\times4 } +  \frac{1}{4\times5 } +  \frac{1}{5\times6} +  \frac{1}{6\times7}$
+
+$$\begin{aligned}
+\mbox{原式}& = \displaystyle 1-\frac{1}{2}+\frac{1}{2}-\frac{1}{3}+\frac{1}{3}-\frac{1}{4}+\frac{1}{4}-\frac{1}{5}+\frac{1}{5}-\frac{1}{6}+\frac{1}{6}-\frac{1}{7} \nonumber     \\
+~ & = \displaystyle 1-\frac{1}{7}  \nonumber   \\
+~ & = \displaystyle \frac{6}{7}  \nonumber  \end{aligned}$$
+
+\
+结果考试来一个：
+
+$$\displaystyle \frac{1}{2 } +  \frac{1}{6 } +  \frac{1}{12} +  \frac{1}{20 } +  \frac{1}{30} +  \frac{1}{42}$$
+
+
+大家考试会怎么做，通分吗？也不是不行，只是需要花费更多的时间。那万一分母来一个很大的数字，那我们怎么办？\
+我们仔细观察一下这个式子，有没有发现分母分别是$\displaystyle 1\times 2$，$\displaystyle 2\times 3$，$\displaystyle 3\times 4$...分子都是1，那不就和例1一样。\
+例2、$\displaystyle \frac{1}{1\times3 } +  \frac{1}{3\times5 } +  \frac{1}{5\times7 } +  \dots +  \frac{1}{19\times21}
+$ $$\begin{aligned}
+\mbox{原式}& = \displaystyle \frac{1}{2} \times \left ( 1-\frac{1}{3} \right ) +\frac{1}{2} \times \left ( \frac{1}{3}-\frac{1}{5} \right )+\frac{1}{2} \times \left ( \frac{1}{5}-\frac{1}{7} \right )+\cdots +\frac{1}{2} \times \left ( \frac{1}{19}-\frac{1}{21} \right )   \nonumber  \\
+~ & = \displaystyle \frac{1}{2} \times \left ( 1-\frac{1}{3} +\frac{1}{3}-\frac{1}{5}+\frac{1}{5}-\frac{1}{7}+\dots +\frac{1}{19}-\frac{1}{21}\right )  \nonumber \\
+~ & = \displaystyle \frac{1}{2} \times \left ( 1-\frac{1}{21} \right ) \nonumber \\
+~ & = \displaystyle \frac{10}{21} \nonumber\end{aligned}$$\
+看完例2，大呼一声，你不用讲了，我会了。\
+结果考试打开试卷一看：
+$$\displaystyle \frac{1}{1\times3 } + \frac{1}{2\times4 } + \frac{1}{3\times5 } + \frac{1}{4\times6 } +  \dots +  \frac{1}{19\times21 } +\frac{1}{20\times22}$$\
+这好像有点不对劲，但仔细一看，小意思，把顺序交换一下不就好了。
+
+$$\begin{aligned}
+
+\mbox{原式}&=\displaystyle \frac{1}{1\times 3} +\frac{1}{3\times 5} +\dots +\frac{1}{19\times 21}+\frac{1}{2\times 4}+\frac{1}{4\times 6}+\dots +\frac{1}{20\times 22}  \nonumber  \\& = \displaystyle \frac{1}{2} \times \left ( 1-\frac{1}{3} \right ) +\frac{1}{2} \times \left ( \frac{1}{3}-\frac{1}{5} \right )+\cdots +\frac{1}{2} \times \left ( \frac{1}{19}-\frac{1}{21} \right ) \\+\frac{1}{2} \times \left ( \frac{1}{2}-\frac{1}{4} \right ) +\frac{1}{2} \times \left ( \frac{1}{4}-\frac{1}{6} \right )+\cdots +\frac{1}{2} \times \left ( \frac{1}{20}-\frac{1}{22} \right )   \nonumber \\& = \displaystyle \frac{1}{2} \times \left ( 1-\frac{1}{3} +\frac{1}{3}-\frac{1}{5}+\dots +\frac{1}{19}-\frac{1}{21}\right ) +\frac{1}{2} \times \left ( \frac{1}{2}-\frac{1}{4} +\frac{1}{4}-\frac{1}{6}+\dots +\frac{1}{20}-\frac{1}{22}\right )  \nonumber\\& = \displaystyle \frac{1}{2} \times \left ( 1-\frac{1}{21} +\frac{1}{2} -\frac{1}{22}\right )  \nonumber \\& = \displaystyle \frac{325}{462} \nonumber\end{aligned}$$
+
+看到这里的同学，都觉得我会了，开开心心的去考试，打开试卷看到题目：
+
+$$\displaystyle 1\frac{1}{2 } -2 \frac{5}{6 } + 3\frac{1}{12 } -4 \frac{19}{20} +5 \frac{1}{30 } -6\frac{41}{42}$$\
+心里一万只羊驼涌过。这和老师上课讲的不一样啊，上课明明讲的马冬梅，我好不容易记住马冬梅，结果你来考孙红雷。\
+很多同学没有思路，但是看着数字也不大，那就硬着头皮通分计算。答案也可以求出来，但如果这个计算题都花费我们大量的时间，后面的题目就更没有时间去完成了。\
+我们仔细分析一下这个题目：\
+分母是两个数的乘积，那我们想分子如果是两数之和或者两数之差，那我们不就可以采用裂项相消法。\
+假分数可以拆成两个数相加或相减，分母差是1，我们怎么拆分子才可以产生1呢？
+
+$$\begin{aligned}  
+\mbox{原式}&=\displaystyle \left ( 1+\frac{1}{2} \right ) -\left ( 3-\frac{1}{6}  \right )+\left ( 3+\frac{1}{12}  \right )-\left ( 5-\frac{1}{20}  \right )+\left ( 5+\frac{1}{30}  \right )-\left ( 7-\frac{1}{42}  \right ) \\& =\displaystyle \left ( 1-3+3-5+5-7 \right ) + \left ( \frac{1}{2}+\frac{1}{6}+\frac{1}{12}+\frac{1}{20}+\frac{1}{30}+\frac{1}{42} \right ) \\& =\displaystyle -6+\left ( 1-\frac{1}{2} +\frac{1}{2}-\frac{1}{3}+\frac{1}{3}-\frac{1}{4}+\dots +\frac{1}{6}-\frac{1}{7}\right ) \\& =\displaystyle -6+\left ( 1-\frac{1}{7}\right ) \\& =\displaystyle -\frac{36}{7}\end{aligned}$$\
+
+看到这里，你肯定是掌握了裂项相消法的技巧，现在需要的就是实践，最后留几道题目给大家去完成！\
+1、计算：$\displaystyle \frac{1}{1\times 2}+\frac{1}{2\times 3}+\frac{1}{3\times 4}+\cdots +\frac{{\displaystyle 1}}{{\displaystyle 9\times 10}} 
+$\
+2、计算：$\displaystyle \frac{2}{1\times 3}+\frac{2}{3\times 5}+\frac{2}{5\times 7}+\cdots +\frac{2}{97\times 99} 
+$\
+3、计算：$\displaystyle \frac{1}{2\times 4}+\frac{1}{4\times 6}+\frac{1}{6\times 8}+\cdots +\frac{1}{98\times 100}  
+$
+
+4、计算：
+
+$\displaystyle \frac{1}{6}+\frac{1}{12}+\frac{1}{20}+\frac{1}{30}+\frac{1}{42}+\frac{1}{56}+\frac{1}{72}+\frac{1}{90}  
+$
+
+5、计算：$\displaystyle \frac{1}{4}+\frac{1}{28}+\frac{1}{70}+\frac{1}{130}+\cdots +\frac{1}{9700}
+$\
+6、计算：$\displaystyle 1\frac{1}{2}-2\frac{5}{6}+3\frac{1}{12}-4\frac{19}{20}+5\frac{1}{30}-6\frac{41}{42}
+$\
+7、计算：$\displaystyle \frac{5+6}{5\times 6}-\frac{6+7}{6\times 7}+\frac{7+8}{7\times 8}-\frac{8+9}{8\times 9}+\frac{9+10}{9\times 10} 
+$\
+8、计算：$\displaystyle \frac{3}{2}-\frac{5}{6}+\frac{7}{12}-\frac{9}{20}+\frac{11}{30}-\frac{13}{42}+\frac{15}{56}-\frac{17}{72}+\frac{19}{90} 
+$\
+9、计算：$\displaystyle \frac{1}{1+2}+\frac{1}{1+2+3}+\frac{1}{1+2+3+4}+\cdots +\frac{1}{1+2+3+\cdots +100} 
+$\
+10、计算：
+$ \frac{2}{1\times 2\times 3}+\frac{2}{2\times 3\times 4}+\frac{2}{3\times 4\times 5}+\cdots \frac{2}{98\times 99\times 100} 
+$\
+
+关于裂项相消法的总结
+
+\
+将算式中的项进行拆分，使拆分后的项可前后抵消，这种拆项计算的方法称为裂项法。裂项分为分数裂项和整数裂项，常见的裂项方法是将数字拆分为两个或多个数字单位的和或差。\
+遇到裂项的计算题时，要仔细地观察每项的分子和分母，找出每项分子分母之间具有的关系，找出共有的部分。裂项的题目不需要复杂的计算，一般是中间部分消去的过程，找出共有部分，这样的话，找到相邻两项的相似部分，让它们消去才是根本的。\
+熟记以下公式有助于解题：\
+母积子和公式：$\displaystyle \frac{b+a}{a\times b}=\frac{1}{a}+\frac{1}{b}\,\left(a< b,a\ne 0,b\ne 0\right) 
+$\
+母积子差公式：$\displaystyle \frac{b-a}{a\times b}=\frac{1}{a}-\frac{1}{b}\,\left(a< b,a\ne 0,b\ne 0\right) 
+$\
+常用公式：  \
+
+$\displaystyle \frac{1}{n\times \left(n+1\right)}=\frac{1}{n}-\frac{1}{n+1} 
+$
+
+ \
+
+$\displaystyle \frac{1}{n\times \left(n+k\right)}=\frac{1}{k}\left(\frac{1}{n}-\frac{1}{n+k}\right)
+$
+
+\
+对于分母上为3个或4个连续自然数乘积形式的分数，即\
+$\displaystyle \frac{1}{n\times \left(n+1\right)\times \left(n+2\right)},\frac{1}{n\times \left(n+1\right)\times \left(n+2\right)\times \left(n+3\right)} 
+$ 形式的分数，可分别裂项为:\
+$\displaystyle \frac{1}{n\times \left(n+1\right)\times \left(n+2\right)}=\frac{1}{2}\left[\frac{1}{n\times \left(n+1\right)}-\frac{1}{\left(n+1\right){\displaystyle \times }{\displaystyle \left(n+2\right)}}\right] 
+$\
+$\displaystyle \frac{1}{n\times \left(n+1\right)\times \left(n+2\right)\times \left(n+3\right)}= \frac{1}{3}\left[\frac{1}{n\times \left(n+1\right)\times \left(n+2\right)}-\frac{1}{\left(n+1\right){\displaystyle \times }{\displaystyle \left(n+2\right)}{\displaystyle \times }{\displaystyle \left(n+3\right)}}\right] 
+$\
+掌握数学方法，我们都可以学好数学！
