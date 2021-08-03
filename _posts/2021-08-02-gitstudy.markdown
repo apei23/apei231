@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "git test!"
+date:   2021-08-02 23:39:30 +0800
+categories: jekyll update
+author: 刘志强
+---
+
+# gitHub
+
+# 学习笔记
+
+git add . 本的存储
+
+git commit -m "代码提交信息"
+
+git push
