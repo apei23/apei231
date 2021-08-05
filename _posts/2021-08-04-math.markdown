@@ -6,21 +6,26 @@ categories: jekyll update
 ---
 
 平方差公式:
+
 $$\displaystyle \left ( a+b \right ) \left ( a-b \right ) =a^{2} -b^{2}
 $$
 
 完全平方公式:
+
 $$\displaystyle \left ( a+b \right ) ^{2}  =a^{2} +2ab+b^{2}$$
 
 立方和公式:
+
 $$\displaystyle a^{3} +b^{3} =\left ( a+b \right ) \left ( a^{2} -ab+ b^{2}\right )
 $$
 
 立方差公式:
+
 $$\displaystyle a^{3} -b^{3} =\left ( a-b \right ) \left ( a^{2} +ab+ b^{2}\right )
 $$
 
 关于韦达定理的利用:
+
 $$\displaystyle a^{2} +b^{2} =\left ( a+b \right )^{2} -2ab$$
 
 $$\displaystyle \left ( a-b \right )^{2} =\left ( a+b \right )^{2} -4ab$$
