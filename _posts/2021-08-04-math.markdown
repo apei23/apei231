@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "初中数学因式分解"
+title:  "math test!"
 date:   2021-08-04 23:39:30 +0800
 categories: jekyll update
 ---
